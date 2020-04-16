@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/p35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="P 35m neco" />
+    <Button
+        android:id="@+id/p24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="P 24h" />
+    <Button
+        android:id="@+id/v35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="V 35m" />
+    <Button
+        android:id="@+id/pv65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="P+V 65m" />
+
+</LinearLayout>
