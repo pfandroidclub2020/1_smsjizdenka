@@ -4,6 +4,8 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -23,5 +25,17 @@ class MainActivity : AppCompatActivity() {
         intent.data = Uri.parse("smsto:90206")
         intent.putExtra("sms_body",text)
         startActivity(intent)
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_main,menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (item.itemId == R.id.about) {
+            startActivity(Intent(this,AboutActivity::class.java))
+        }
+        return super.onOptionsItemSelected(item)
     }
 }
