@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="8dp">
+    <Button
+        android:id="@+id/widget_p35"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Vnitřní\n35 minut\n22Kč" />
+    <Button
+        android:id="@+id/widget_p24"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Vnitřní\n24 hodin\n76Kč" />
+    <Button
+        android:id="@+id/widget_v35"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Vnější\n35 minut\n10Kč" />
+    <Button
+        android:id="@+id/widget_pv65"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Všude\n65 minut\n38Kč" />
+</LinearLayout>
